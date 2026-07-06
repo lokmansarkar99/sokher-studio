@@ -11,7 +11,7 @@ const services = [
     description: "জীবনের অমূল্য মুহূর্তগুলোর নিখুঁত ফ্রেম। ওয়েডিং, প্রি-ওয়েডিং, গায়ে হলুদ এবং পোর্ট্রেট।",
     icon: Camera,
     colSpan: "md:col-span-2",
-    bgImage: "https://images.pexels.com/photos/15746506/pexels-photo-15746506.jpeg?auto=compress&cs=tinysrgb&w=800",
+    bgImage: "https://images.pexels.com/photos/12551959/pexels-photo-12551959.jpeg",
   },
   {
     id: 2,
@@ -38,7 +38,7 @@ const services = [
     description: "আনন্দঘন মুহূর্তগুলোকে আরও প্রাণবন্ত করতে মনোরম লাইভ মিউজিক পরিবেশনা।",
     icon: Music,
     colSpan: "md:col-span-2",
-    bgImage: "https://images.pexels.com/photos/1649692/pexels-photo-1649692.jpeg?auto=compress&cs=tinysrgb&w=800",
+    bgImage: "https://images.pexels.com/photos/7803629/pexels-photo-7803629.jpeg",
   },
 ];
 
