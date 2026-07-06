@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Noto+Serif+Bengali:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Hind Siliguri", sans-serif;
+  --font-serif: "Noto Serif Bengali", serif;
+
+  --color-brand-light: #fafafa;
+  --color-brand-light-alt: #f1f1f1;
+  
+  --color-brand-dark: #1a1a1a;
+  --color-brand-darker: #111111;
+  --color-brand-dark-alt: #222222;
+
+  --color-brand-accent: #c5a880;
+  --color-brand-accent-light: #d8c3a5;
+  --color-brand-accent-dark: #8e7254;
+}
+
+:root {
+  --background: #fafafa;
+  --foreground: #111111;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+::selection {
+  background: var(--color-brand-accent);
+  color: var(--color-brand-light);
+}
+
+/* Accent text utility */
+.text-accent {
+  color: var(--color-brand-accent);
+}
